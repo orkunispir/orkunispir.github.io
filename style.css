@@ -1,0 +1,41 @@
+.hintergrund{
+	background: linear-gradient(-45deg,#c44659,#96c9dd);
+	width:80%;
+	position:absolute;
+	height: 95%;
+	left: 10%;
+	top: 0%;
+	border-radius: 20px;
+	z-index: -10;
+}
+#title{
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	top: 2%;
+	font-size:45px;
+	text-align: center;
+}
+.text{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	position: relative;
+	text-align: center;
+}
+#music{
+	font-size: 24px;
+}
+.footer{
+	text-align: center;
+	
+}
+.sound{
+	position: relative;
+	align: center;
+	height: 300px;
+	width:  300px;
+	margin: 0 auto;
+}
+#copy{
+	font-size: 18px;
+	font-style: italic;
+}
