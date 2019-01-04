@@ -27,7 +27,7 @@
 .footer{
 	position: relative;
 	text-align: center;
-	top: 150px;
+	<!-- background: linear-gradient(45deg,#96c9dd,#c44659); -->
 }
 .sound{
 	position: relative;
