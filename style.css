@@ -27,6 +27,7 @@
 .footer{
 	position: relative;
 	text-align: center;
+	top: 50px;
 }
 .sound{
 	position: relative;
