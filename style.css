@@ -1,12 +1,5 @@
-.hintergrund{
+body{
 	background: linear-gradient(-45deg,#c44659,#96c9dd);
-	width:80%;
-	position: absolute;
-	height: 1500px;
-	left: 10%;
-	top: 0%;
-	border-radius: 20px;
-	z-index: -10;
 }
 #title{
 	font-family: 'Raleway', sans-serif;
