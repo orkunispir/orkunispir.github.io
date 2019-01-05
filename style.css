@@ -2,7 +2,7 @@
 	background: linear-gradient(-45deg,#c44659,#96c9dd);
 	width:80%;
 	position: absolute;
-	height: 130%;
+	height: 1500px;
 	left: 10%;
 	top: 0%;
 	border-radius: 20px;
@@ -27,7 +27,6 @@
 .footer{
 	position: relative;
 	text-align: center;
-	<!-- background: linear-gradient(45deg,#96c9dd,#c44659); -->
 }
 .sound{
 	position: relative;
@@ -48,3 +47,29 @@
 	font-family: 'Fira Sans', sans-serif;
 	font-style: italic;
 }
+#upload{
+	font-size:24px;
+}
+hr{
+	width: 80%;
+}
+form{
+	margin: 0 auto;
+	width: 250px;
+	transform: scale(1.5);
+}
+input{
+	border-radius:4px;
+}
+input:hover{
+	background-color: #ededed;
+}
+button{
+	border-radius: 10px;
+	background: linear-gradient(26deg,#6b70ff,#e87266)
+	}
+
+
+
+
+
