@@ -1,13 +1,6 @@
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-}
 body{
 	background: linear-gradient(-45deg,#c44659,#96c9dd);
+	overflow-x:hidden;
 }
 #title{
 	font-family: 'Raleway', sans-serif;
