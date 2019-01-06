@@ -38,7 +38,7 @@ body{
 	position: relative;
 	font-size:35px;
 	text-align:left;
-	left: 15%;
+	left: 25%;
 	font-family: 'Fira Sans', sans-serif;
 	font-style: italic;
 }
@@ -63,6 +63,16 @@ button{
 	border-radius: 10px;
 	background: linear-gradient(26deg,#6b70ff,#e87266)
 	}
+.song{
+	padding-bottom: 5px;
+	background-color: hsl(217, 24%, 96%);
+	width: 50%;
+	align: center;
+	position: relative;
+	margin: 0 auto;
+	border-radius: 20px;
+	box-shadow: -3px 3px 10px 3px #c49e87;
+}
 
 
 
