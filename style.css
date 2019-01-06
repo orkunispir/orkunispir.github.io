@@ -3,11 +3,11 @@ body{
 	background: linear-gradient(-45deg,#c44659,#96c9dd);
 	overflow-x: hidden;
 }
-#title{
+h1{
 	font-family: 'Raleway', sans-serif;
 	position: relative;
 	top: 2%;
-	font-size:45px;
+	font-size:55px;
 	text-align: center;
 }
 .text{
@@ -25,8 +25,6 @@ body{
 	top: 50px;
 }
 .sound{
-	position: relative;
-	align: center;
 	height: 300px;
 	width:  300px;
 	margin: 0 auto;
@@ -67,14 +65,35 @@ button{
 .song{
 	padding-bottom: 5px;
 	background-color: hsl(217, 24%, 96%);
-	width: 50%;
-	align: center;
-	position: relative;
+	width: 50vw;
 	margin: 0 auto;
 	border-radius: 20px;
 	box-shadow: -3px 3px 10px 3px #c49e87;
+	flex-direction: column;
+	justify-content: space-about;
+	align-items: center;
 }
+#music-container{
+	display: flex;
+	flex-direction: column;
+}
+@media (max-width: 800px) {
+	.sound{
+		height: 150px;
+		width:  150px;
+		margin: 0 auto;
+	}
+	.text{
+		font-size:14px;
+	}
+	#trends{
+		font-size:24px;
+	}
+	h1{
+		font-size:31px;
 
+	}
+}
 
 
 
